@@ -1,6 +1,6 @@
 
 .crystal{
-    border:1px solid green;
+    border:1px solid rgb(27, 27, 27);
     height:200px;
     width: 200px;
     background-image: url("../images/crystal.jpg")
@@ -11,4 +11,21 @@
     justify-content:space-around;
     
     align-items: center;
+}
+
+.crystals{
+    background-color: rgb(29, 21, 100);
+}
+
+h1{
+    align-content: center;
+    text-align: center
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+body{
+    background-color: rgb(175, 175, 255)
 }

@@ -45,7 +45,8 @@ $(document).on('click', ".crystal", function(){
     var num = parseInt($(this).attr('data-random'));
 
     counter+=num;
-    
+    $('#yourScore').html("Your Score: " + counter);
+
     if(counter > random_result){
         lost++;
         $("#lose").html(lost);
