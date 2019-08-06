@@ -4,22 +4,18 @@
 
 
 ### Summary
-Crystal collector is
-
-### The goal of this project
-The goal was to make a simple page and catch the attention of potentially a room full of people with a quick, easy, and unique social experience based around dates in history. 
+Crystal collector is a small javascript based game where a user must aim for a certain target score without going over
 
 ### File Structure
-The project is made esentially with one page styled using the materialize CSS library, and interacting with Two different API's to retrieve information. To share that information, the side pushes and pulls from a firebase table into a share section on the left. 
+The site is a single page game in html that uses javascript and click events to manipulate a users score. There is an assets folder containing the CSS, javascript, and image used. 
 
 ### Instructions
-Input your name and your desired date, usually the users birthday, and then click submit. Then the app will pull information from its two API's about relative articles and events and display them down below in two collumns. Then, if a user desires, you can share an event by clicking the button next to the article. The last 30 shared articles will reflected on the left. 
+Upon loading the page, there will be a target score displayed, each of the 4 crystals down below will have a number associated with it. Upon clicking one of the crystals, it will add to the users score and build towards the target score, the goal is to achieve exactly the target score without going over.  
 
 ### Deployment & Screenshot
 [Link to Deployment](https://jwilly117.github.io/Crystal-Collector-Game/)
 
-![image](https://imgur.com/S1p)
+![image](https://imgur.com/nRIjmqZ.png)
 
 ### Future of this project
-The future potential of this project would be to enhance the user experience with a more fluid page, and to source information from more sources. For example, one idea was show information about famous birthdays on specified dates in history. 
-
+Going foreward I would like to polish the UI and possibly add this to a more complex assortment of games all within one site, instead of all over multiple repos. 
